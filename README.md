@@ -1,3 +1,24 @@
+# PetCare Landing Page
+
+<h3>Site desenvolvido com Next.js e TypeScript, utilizando Tailwind CSS para estilização, shadcn/ui para componentes,
+  Lucide e Phosphor Icons para ícones modernos, Embla Carousel para carrosséis interativos, clsx para manipulação
+  de classes, AOS para animações suaves e Biome.js para linting e formatação de código.</h3>
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,react,ts,tailwind)](https://skillicons.dev)
+
+<a href="https://petcareoficial.netlify.app/">Clique aqui para ver</a>
+
+# Prints:
+
+<div>
+  <img height="400" src="./src/assets/desktop-dark.png" alt="Print desktop" />
+</div>
+
+<div>
+  <img height="500" src="./src/assets/mobile-dark.png" alt="Print mobile" />
+</div>
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
