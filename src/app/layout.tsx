@@ -23,6 +23,8 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode
 }>) {
+	const currentYear = new Date().getFullYear()
+
 	return (
 		<html lang="pt-BR">
 			<head>
@@ -36,7 +38,7 @@ export default function RootLayout({
 				<div className="w-full py-1">
 					<p className="text-[12px] text-center">
 						Desenvolvido por <b>Lucas Galdino</b> | © Todos os direitos
-						reservados - 2025
+						reservados - {currentYear}
 					</p>
 				</div>
 			</body>
