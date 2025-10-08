@@ -114,10 +114,7 @@ export function Services() {
 												<span className="select-none">{item.duration}</span>
 											</div>
 
-											<WhatsappLink
-												variant="transparent-green"
-												href={`https://wa.me/5516991328759?text=Olá! Vim pelo site e gostaria de mais informaões sobre ${item.title}.`}
-											>
+											<WhatsappLink variant="transparent-green">
 												Marcar horário
 											</WhatsappLink>
 										</div>

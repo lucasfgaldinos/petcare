@@ -65,17 +65,9 @@ export function About() {
 						</ul>
 
 						<div className="flex gap-4">
-							<WhatsappLink
-								variant="red"
-								href="https://wa.me/5516991328759?text=Olá! Vim pelo site e gostaria de mais informações."
-							>
-								Contato via WhatsApp
-							</WhatsappLink>
+							<WhatsappLink variant="red">Contato via WhatsApp</WhatsappLink>
 
-							<WhatsappLink
-								variant="transparent-black"
-								href="https://www.google.com/maps?q=Times+Square,+New+York,+NY"
-							>
+							<WhatsappLink variant="transparent-black">
 								Nosso endereço
 							</WhatsappLink>
 						</div>

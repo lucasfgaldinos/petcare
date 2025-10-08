@@ -63,12 +63,7 @@ export function Footer() {
 						<p className="mb-4">
 							Cuidando do seu melhor amigo com amor e dedicação.
 						</p>
-						<WhatsappLink
-							variant="green"
-							href="https://wa.me/5516991328759?text=Olá! Vim pelo site e gostaria de mais informações."
-						>
-							Contato via WhatsApp
-						</WhatsappLink>
+						<WhatsappLink variant="green">Contato via WhatsApp</WhatsappLink>
 					</div>
 
 					<div>
@@ -80,7 +75,7 @@ export function Footer() {
 							<b>Telefone:</b> (XX) XXXXX-XXXX
 						</p>
 						<p>
-							<b>Endereço:</b> Rua X, 2270 | Ribeirão Preto - SP
+							<b>Endereço:</b> Rua X, 2270
 						</p>
 					</div>
 

@@ -1,15 +1,6 @@
 "use client"
-import { WhatsappLogoIcon } from "@phosphor-icons/react"
 import useEmblaCarousel from "embla-carousel-react"
-import {
-	CarTaxiFront,
-	ChevronLeft,
-	ChevronRight,
-	Clock,
-	Hotel,
-	Scissors,
-	Syringe
-} from "lucide-react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
 import Tutor1 from "../../public/tutor1.png"
 import Tutor2 from "../../public/tutor2.jpg"

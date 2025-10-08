@@ -34,12 +34,7 @@ export function Hero() {
 						</p>
 
 						<div>
-							<WhatsappLink
-								variant="green"
-								href="https://wa.me/5516991328759?text=Olá! Vim pelo site e gostaria de mais informações."
-							>
-								Contato via WhatsApp
-							</WhatsappLink>
+							<WhatsappLink variant="green">Contato via WhatsApp</WhatsappLink>
 						</div>
 
 						<div className="mt-8">

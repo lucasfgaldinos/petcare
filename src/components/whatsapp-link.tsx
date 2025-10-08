@@ -5,11 +5,10 @@ import type { ReactNode } from "react"
 
 type WhatsappLinkProps = {
 	children: ReactNode
-	href: string
 	variant: "green" | "transparent-green" | "transparent-black" | "red"
 }
 
-export function WhatsappLink({ children, href, variant }: WhatsappLinkProps) {
+export function WhatsappLink({ children, variant }: WhatsappLinkProps) {
 	return (
 		<div data-aos="zoom-in" className="inline-block">
 			<a
@@ -23,7 +22,7 @@ export function WhatsappLink({ children, href, variant }: WhatsappLinkProps) {
 						"border-green-500": variant === "transparent-green"
 					}
 				)}
-				href={href}
+				href="/"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
